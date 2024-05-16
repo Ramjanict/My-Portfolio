@@ -1,6 +1,6 @@
 import React from "react";
 import ecommerce_bg from "../../assets/ecommerce_bg.png";
-import foodvally from "../../assets/ecommerce.png";
+import foodvally from "../../assets/Ecommerce.png";
 import "./work.css";
 
 const Works = () => {
