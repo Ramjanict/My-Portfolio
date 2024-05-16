@@ -65,4 +65,7 @@
   .introimg {
     right: -20vw;
   }
+  .btn{
+    margin-top: .5rem;
+  }
 }

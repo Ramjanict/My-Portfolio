@@ -1,5 +1,5 @@
 #contact {
-  margin: 0 auto;
+  margin: 50px auto;
   min-height: calc(100vh - 5rem);
   width: 100vw;
   max-width: 60rem;
@@ -7,7 +7,7 @@
 }
 .contactTitle {
   font-size: 3rem;
-  margin: 2rem 0;
+ 
 }
 .contactdes {
   font-weight: 300;

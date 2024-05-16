@@ -1,8 +1,8 @@
 import emailjs from "@emailjs/browser";
 import React, { useRef } from "react";
 import fabicon from "../../assets/facebook-icon.png";
-import insticon from "../../assets/instagram.png";
-import twiticon from "../../assets/twitter.png";
+import github from "../../assets/1.png";
+import lindedin from "../../assets/2.png";
 import youticon from "../../assets/youtube.png";
 import "./contact.css";
 const Contact = () => {
@@ -33,9 +33,7 @@ const Contact = () => {
     <div id="contact">
       <h2 className="contactTitle">Contact Me</h2>
       <span className="contactdes">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error
-        assumenda quo consequatur voluptates, id possimus vel? Porro amet, eum
-        culpa labore error, fuga odit distinctio ea, itaque voluptatibus quod a.
+        Please fill up all necessary steps and wait for me to reply.
       </span>
       <form className="contactform" ref={form} onSubmit={sendEmail}>
         <input
@@ -63,9 +61,16 @@ const Contact = () => {
           submit
         </button>
         <div className="links">
-          <img src={fabicon} alt="socalmedia" className="link" />
-          <img src={twiticon} alt="socalmedia" className="link" />
-          <img src={insticon} alt="socalmedia" className="link" />
+          <a href="https://www.facebook.com/mdramjanali.ict" target="_blank">
+            <img src={fabicon} alt="socalmedia" className="link" />
+          </a>
+          <a href="https://github.com/Ramjanict" target="_blank">
+            <img src={github} alt="socalmedia" className="link" />
+          </a>
+          <a href="https://www.linkedin.com/in/mdramjanict/" target="_blank">
+            <img src={lindedin} alt="socalmedia" className="link" />
+          </a>
+
           <img src={youticon} alt="socalmedia" className="link" />
         </div>
       </form>

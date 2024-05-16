@@ -9,15 +9,16 @@ const Intro = () => {
       <div className="introcontent">
         <span className="hello">Hello</span>
         <span className="introtext">
-          I'm <span className="introname">Ramjan</span> <br /> Website Designer
+          I'm <span className="introname">Ramjan</span> <br /> Full Stack
+          Developer
         </span>
         <p className="intropara">
-          I am skilled and passionate web designer with experience in creating
+          I'm with experience in React, Node.js, Express.js, and MongoDB.
           <br />
-          visually appealing and user-friendly websites.
+          Passionate about creating scalable and performant web applications
         </p>
 
-        <Link>
+        <Link to="contact" spy={true} smooth={true} offset={-60} duration={500}>
           <button className="btn">
             <IoBagSharp size={25} />
             <span className="gap">Hire Me</span>

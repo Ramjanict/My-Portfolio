@@ -1,6 +1,6 @@
 import React from "react";
-import ecommerce from "../../assets/Ecommerce.png";
-import foodvally from "../../assets/foodvally.png";
+import ecommerce_bg from "../../assets/ecommerce_bg.png";
+import foodvally from "../../assets/ecommerce.png";
 import "./work.css";
 
 const Works = () => {
@@ -8,27 +8,26 @@ const Works = () => {
     <div id="works">
       <h2 className="worktitle">My Portfolio</h2>
       <span className="workdes">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error
-        assumenda quo consequatur voluptates, id possimus vel? Porro amet, eum
-        culpa labore error, fuga odit distinctio ea, itaque voluptatibus quod a.
+        I have completed some fully functional e-commerce websites using
+        React.js, Node.js, MongoDB, JWT, Mongoose
       </span>
       <div className="workimages">
-        <a href="https://mdramjanict.netlify.app/" target="_blank">
-          <img src={ecommerce} alt="workimg" className="w_img" />
+        <a href="https://ramjan-ecommerc.netlify.app/" target="_blank">
+          <img src={ecommerce_bg} alt="workimg" className="w_img" />
         </a>
-        <a href="https://ramjan.netlify.app/" target="_blank">
+        <a href="https://mdramjanict.netlify.app/" target="_blank">
           <img src={foodvally} alt="workimg" className="w_img" />
         </a>
-        <a href="https://mdramjanict.netlify.app/" target="_blank">
-          <img src={ecommerce} alt="workimg" className="w_img" />
+        <a href="https://ramjan-ecommerc.netlify.app/" target="_blank">
+          <img src={ecommerce_bg} alt="workimg" className="w_img" />
         </a>
-        <a href="https://ramjan.netlify.app/" target="_blank">
+        <a href="https://mdramjanict.netlify.app/" target="_blank">
           <img src={foodvally} alt="workimg" className="w_img" />
         </a>
-        <a href="https://mdramjanict.netlify.app/" target="_blank">
-          <img src={ecommerce} alt="workimg" className="w_img" />
+        <a href="https://ramjan-ecommerc.netlify.app//" target="_blank">
+          <img src={ecommerce_bg} alt="workimg" className="w_img" />
         </a>
-        <a href="https://ramjan.netlify.app/" target="_blank">
+        <a href="https://mdramjanict.netlify.app/" target="_blank">
           <img src={foodvally} alt="workimg" className="w_img" />
         </a>
       </div>
