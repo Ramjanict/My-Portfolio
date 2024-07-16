@@ -106,6 +106,8 @@ const Work = () => {
                 heading={item.heading}
                 des={item.des}
                 category={item.category}
+                imgurl={item.imgurl}
+                giturl={item.giturl}
               />
             );
           })}
