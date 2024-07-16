@@ -1,8 +1,8 @@
 import React from "react";
-import { FaLinkedin, FaGithub, FaFacebookF } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 import { VscPreview } from "react-icons/vsc";
 
-const Cart = ({ image, heading, des, category }) => {
+const Cart = ({ image, heading, des, category, imgurl, giturl }) => {
   return (
     <div>
       <div className="w-[250px] p-4  hover:shadow-lg  bg-white rounded-md flex flex-col justify-center items-center gap-y-4">
@@ -12,14 +12,14 @@ const Cart = ({ image, heading, des, category }) => {
           <div className="w-full h-full cursor-pointer  absolute  invisible group-hover:visible shadow-lg  bg-black bg-opacity-50 flex  justify-evenly items-center text-white rounded-md  ">
             <a
               className=" bg-black bg-opacity-50 p-2 rounded-full hover:scale-95 transition-all "
-              href="https://github.com/Ramjanict/Fullstack-Ecommerce-App"
+              href={imgurl}
               target="_blank"
             >
               <FaGithub size={20} />
             </a>
             <a
               className=" bg-black bg-opacity-50 p-2 rounded-full hover:scale-95 transition-all"
-              href="https://fullstack-ecommerce-app-2.vercel.app/"
+              href={giturl}
               target="_blank"
             >
               <VscPreview size={20} />

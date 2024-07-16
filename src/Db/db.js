@@ -12,12 +12,16 @@ const data = [
     heading: "Electronics Website",
     des: "A fully fuctional ecommerce website",
     category: "Ecommerce",
+    imgurl: "https://fullstack-ecommerce-mern-app-usvm.vercel.app",
+    giturl: "https://github.com/Ramjanict/Fullstack-Ecommerce-MERN-APP",
   },
   {
     image: shopperhome,
     heading: "Electronics Website",
     des: "A fully fuctional ecommerce website",
     category: "Ecommerce",
+    imgurl: "https://fullstack-ecommerce-app-2.vercel.app",
+    giturl: "https://github.com/Ramjanict/Fullstack-Ecommerce-App",
   },
   {
     image: mernhome3,
