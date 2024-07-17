@@ -64,6 +64,8 @@ const data = [
     heading: "Electronics Website",
     des: "A fully fuctional ecommerce website",
     category: "Bootstrap",
+    imgurl: "https://portfolio-bootstrap-demo.netlify.app",
+    giturl: "https://github.com/Ramjanict/Portfolio-using-bootstrap",
   },
 ];
 export default data;
